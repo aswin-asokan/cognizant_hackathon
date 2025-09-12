@@ -5,7 +5,7 @@ import { Label } from './ui/label';
 import { Separator } from './ui/separator';
 import { Checkbox } from './ui/checkbox';
 import { Eye, EyeOff, Mail, Lock, User, Building2, Github } from 'lucide-react';
-
+import React from "react"
 interface LoginFormProps {
   isSignUp: boolean;
   onToggleMode: () => void;

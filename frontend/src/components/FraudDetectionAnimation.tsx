@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Truck, Shield, AlertTriangle, CheckCircle, Zap, Star } from 'lucide-react';
-
+import React from "react"
 export function FraudDetectionAnimation() {
   const [animationState, setAnimationState] = useState<'idle' | 'scanning' | 'detected' | 'celebrating'>('idle');
   const [particles, setParticles] = useState<Array<{ id: number; x: number; y: number; delay: number }>>([]);
