@@ -467,3 +467,4 @@ if __name__ == "__main__":
     print("\n=== EXAMPLE PREDICTION ===")
     print("To predict fraud on new data:")
     print("predictions = predict_fraud(model, scaler, new_shipment_data)")
+    
