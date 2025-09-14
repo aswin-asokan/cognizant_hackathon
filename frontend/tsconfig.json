@@ -10,5 +10,5 @@
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true
   },
-  "include": ["src", "../backend/firebaseConfig.js"]
+  "include": ["src"]
 }
