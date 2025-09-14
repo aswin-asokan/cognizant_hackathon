@@ -1,0 +1,28 @@
+# Node modules
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+frontend/build/
+
+# Environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# OS / Editor files
+frontend/.DS_Store
+frontend/Thumbs.db
+frontend/.vscode/
+frontend/.idea/
+
+# TypeScript
+frontend/*.tsbuildinfo
