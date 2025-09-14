@@ -26,3 +26,8 @@ frontend/.idea/
 
 # TypeScript
 frontend/*.tsbuildinfo
+
+
+# ai_model
+ai_model/aswin/__pycache__/
+ai_model/.venv/
