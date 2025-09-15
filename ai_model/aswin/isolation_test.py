@@ -5,7 +5,7 @@ from sklearn.ensemble import IsolationForest
 import matplotlib.pyplot as plt
 
 # Config
-INPUT_CSV = "test_shipments.csv"     
+INPUT_CSV = "test_shipments.csv"     # Input CSV
 OUTPUT_CSV = "predicted_fraud_if.csv"
 DUMMY_YEAR = "2025"
 RANDOM_SEED = 42
